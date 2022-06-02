@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  text-decoration: none;
+}
+
+.container-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  line-height: 1.7;
+  /* background-color: aqua; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-card {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(219, 251, 242, 0.728);
+  width: 50rem;
+  height: 5rem;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 2px 2px 2px 2px rgb(150, 146, 146);
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.btn {
+  width: 12rem;
+  height: 5rem;
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 24px;
+  border: none;
+  background-color: rgb(226, 230, 244);
+  padding: 1px;
+  margin: 2rem;
+  box-shadow: 2px 2px 2px 2px rgb(150, 146, 146);
+  cursor: pointer;
+}
+
+.article-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.article-description {
+  width: 50rem;
+  height: 30rem;
+  overflow: auto;
+}
